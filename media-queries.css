@@ -31,7 +31,12 @@
     display: grid;
     gap: .5rem;
   }
+  footer > .menu{
+    flex-wrap: wrap;
+  }
+  
 }
+
 
 @media screen and (max-width: 800px) {
 
