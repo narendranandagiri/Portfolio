@@ -116,18 +116,14 @@
     gap: .5rem;
   }
 
-  .proj-cont-holder{
-    flex-wrap: wrap;
-  }
-
-  .proj-cont-holder{
-    display: flex;
-    margin-top: 1rem;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
+.proj-cont-holder{
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  gap: .5rem;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
 
 .proj-cont-holder i{
     cursor: pointer;
@@ -143,6 +139,14 @@
 .proj-cont-holder h4{
     font-size: 1rem;
     text-align: center;
+}
+
+.proj{
+  display: flex;
+  flex-direction: column;
+  background-color: greenyellow;
+  border-radius: 4rem;
+  padding: 1.5rem;
 }
 
   .top-container{
