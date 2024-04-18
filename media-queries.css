@@ -118,13 +118,30 @@
 
   .proj-cont-holder{
     flex-wrap: wrap;
-    font-size: 1.2rem;
   }
-  .proj-cont-holder h3{
-    font-size: 1.8rem;
+  .proj-cont-holder{
+    display: flex;
+    margin-top: 1rem;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
-  .proj-cont-holder h4{
+  
+  .proj-cont-holder i{
+    cursor: pointer;
+    font-size: 1rem;
+  } 
+
+
+   #projects h3{
+    text-align: center;
     font-size: 1.5rem;
+  }
+
+  .proj-cont-holder h4{
+    font-size: 1rem;
+    text-align: center;
   }
 
   .top-container{
