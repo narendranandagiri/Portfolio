@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Narendra's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./media-queries.css">
+
+</head>
+<body>
+  <nav class="desktop-nav">
+        <div class="logo">Portfolio.</div>
+        <ul class="menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+  </nav>
+  <nav class="mobile-nav">
+    <div class="logo">Portfolio.</div>
+    </div>
+      <div class="mobile-menu">
+      <li><a href="#about" onclick="change()">About</a></li>
+      <li><a href="#education" onclick="change()">Education</a></li>
+      <li><a href="#projects" onclick="change()">Projects</a></li>
+      <li><a href="#contact" onclick="change()">Contact</a></li>
+    </div>
+    <div class="icon" onclick="change()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>    
+  </nav>
+
+  <section id="home">
+      <div class="home-main">
+        <div class="img">
+          <img src="./upl.jpg" alt="">
+        </div>
+        <div class="content">
+          <div class="text-content">
+          <p class="sht-p">Hello, I'm</p>
+          <h1 class="main-p">Narendra</h1>
+          <h3 class="f-p">Computer Science Student</h3>
+        </div>
+          <div class="home-btn">
+            <a href="./Narendra's_resume.pdf" class="btn" id="dnd-rsm-btn">Download Resume</a>
+            <a href="#contact" class="btn" id="cnt-info-btn">Contact Info</a>
+          </div>
+          <div class="social-media">
+            <i class="fa-brands fa-linkedin" id="media" onclick="location.href='https://linkedin.com/in/narendra-nandagiri'"></i>
+            <i class="fa-brands fa-github" id="media" onclick="location.href='https://github.com/narendranandagiri'"></i></i>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="about">
+    <div class="abt-container" id="abt-bgd">
+      <div class="img-abt">
+        <img id="abt-img" src="./upl.jpg" alt="img">
+      </div>
+      <div class="abt-cnt">
+        <h1 class="main-p" id="abt-pm">About  <span>Me</span></h1>
+        <h3>Computer Science engineering Student</h3>
+        <p>As a passionate and enthusiastic software engineering student, I possess a strong foundation in programming languages such as Python, java, C and C++ along with hands-on experience in data science and full-stack web development projects. With a keen interest in web development, data science and machine learning I am eager to leverage my academic background and practical skills to contribute effectively to innovative projects in the tech industry. My goal is to continuously expand my knowledge and expertise while delivering high-quality solutions that meet both user needs and business objectives.</p>
+      </div>
+    </div>
+  </section>  
+
+  <section id="education">
+    <div class="container">
+      <div class="edu-content">
+        <h3>Education</h3>
+        <img src="./l1.png" class="edu-img" alt="">
+      </div>
+      <div class="ski">
+        <h3>Skills</h3>
+        <div class="ski-ele">
+          <div class="i">python</div>
+          <div class="i">C++</div>
+          <div class="i">C</div>
+          <div class="i">SQL</div>
+          <div class="i">HTML</div>
+          <div class="i">CSS</div>
+          <div class="i">JavaScript</div>
+          <div class="i">Node.Js</div>
+          <div class="i">Express.Js</div>
+          <div class="i">Data analysis</div>
+          <div class="i">Data Cleaning</div>
+          <div class="i">Data Processing</div>
+          <div class="i">Model Making</div>
+          <div class="i">Machine Learning</div>
+          <div class="i">statistical Analysis</div>
+          <div class="i">Tableau</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h3>Latest <span>Projects</span></h3>
+    <div class="proj-cont-holder">
+      <div class="proj">
+        <h4>IBM HR Data Analysis</h4>
+        <i class="fa-solid fa-up-right-from-square" onclick="location.href='https://github.com/narendranandagiri/IBM-HR-Analytics-Employee-Attrition-prediction'"></i>
+      </div>
+      <div class="proj">
+        <h4>Big Mart Sales Analysis</h4>
+        <i class="fa-solid fa-up-right-from-square" onclick="location.href='https://github.com/narendranandagiri/BigMartSales'"></i>
+      </div>
+      <div class="proj">
+        <h4>Used Car Prediction system</h4>
+        <i class="fa-solid fa-up-right-from-square" onclick="location.href='https://github.com/narendranandagiri/Used-car-price-prediction'"></i>
+      </div>
+      <div class="proj">
+        <h4>Credit card approval system</h4>
+        <i class="fa-solid fa-up-right-from-square" onclick="location.href='https://github.com/narendranandagiri/Credit-card-approval-prediction'"></i>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-container">
+    <p class="p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="top-container">
+      <div class="icon-container">
+        <i class="fa-regular fa-envelope" id="media-contact"></i>
+        <p><a href="#contact">narendranandagiri3@gmail.com</a></p>
+      </div>
+      <div class="icon-container">
+        <i class="fa-brands fa-linkedin" id="media-contact"></i>
+        <p><a href="https://www.linkedin.com/in/narendra-nandagiri">Linkedin</a></p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <footer>
+    <nav>
+      <div class="menu">
+       <a href="#about">About</a>
+       <a href="#experience">Experience</a>
+       <a href="#projects">Projects</a>
+       <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </footer>
+
+  
+    <script src="script.js"></script>
+</body>
+</html>
