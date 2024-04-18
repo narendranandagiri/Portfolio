@@ -118,6 +118,13 @@
 
   .proj-cont-holder{
     flex-wrap: wrap;
+    font-size: 1.2rem;
+  }
+  .proj-cont-holder h3{
+    font-size: 1.8rem;
+  }
+  .proj-cont-holder h4{
+    font-size: 1.5rem;
   }
 
   .top-container{
